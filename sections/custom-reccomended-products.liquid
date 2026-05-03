@@ -1,0 +1,22 @@
+{% assign all_products = collections.all.products%}
+
+<section>
+  <h1>Recommended Products</h1>
+    <script>console.log('testing')</script>
+
+  <script>console.log({{all_products | json}})</script>
+  <div></div>
+</section>
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

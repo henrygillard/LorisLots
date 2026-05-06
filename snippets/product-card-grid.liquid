@@ -11,7 +11,6 @@
 <div class="grid-view-item{% unless product.available %} grid-view-item--sold-out{% endunless %} product-card">
   <a class="grid-view-item__link grid-view-item__image-container full-width-link" href="{{ product.url | within: collection }}">
     <span class="visually-hidden">{{ product.title }}</span>
-    <span class="visually-hidden">{{ product.title }}</span>
   </a>
 
   {% capture img_id %}ProductCardImage-{{ section.id }}-{{ product.id }}{% endcapture %}
@@ -25,8 +24,7 @@
 
   <div class="product-card__image-with-placeholder-wrapper" data-image-with-placeholder-wrapper>
     <div id="{{ wrapper_id }}" class="grid-view-item__image-wrapper product-card__image-wrapper js">
-      <div>test</div>
-      <div style="padding-top:{% unless preview_image == blank %}{{ 1 | divided_by: preview_image.aspect_ratio | times: 100 }}%{% else %}100%{% endunless %};">
+      <div style="padding-top:{% unless preview_image == blank %}{{ 1 | divided_by: preview_image.aspect_ratio | times: 100 }}%{% else %}140%{% endunless %};">
         <img id="{{ img_id }}"
               class="grid-view-item__image lazyload"
               alt="{{ preview_image.alt }}"
@@ -45,7 +43,7 @@
     <img class="grid-view-item__image" src="{{ preview_image | img_url: image_size, scale: 2 }}" alt="{{ preview_image.alt }}" style="max-width: {{ max_height | times: preview_image.aspect_ratio }}px;">
   </noscript>
 
-  <div class="h4 grid-view-item__title product-card__title" aria-hidden="true">{{ product.title }}</div>
+  <div class="grid-view-item__title product-card__title" aria-hidden="true">{{ product.title }}</div>
 
   {% include 'product-price-listing', product: product, show_vendor: show_vendor %}
 

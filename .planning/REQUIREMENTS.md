@@ -94,44 +94,42 @@
 
 ## Traceability
 
-*(Populated by roadmapper)*
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SCAFFOLD-01 | — | Pending |
-| SCAFFOLD-02 | — | Pending |
-| SCAFFOLD-03 | — | Pending |
-| SCAFFOLD-04 | — | Pending |
-| SHARED-01 | — | Pending |
-| SHARED-02 | — | Pending |
-| SHARED-03 | — | Pending |
-| SHARED-04 | — | Pending |
-| CART-01 | — | Pending |
-| CART-02 | — | Pending |
-| CART-03 | — | Pending |
-| CART-04 | — | Pending |
-| COL-01 | — | Pending |
-| COL-02 | — | Pending |
-| COL-03 | — | Pending |
-| COL-04 | — | Pending |
-| PDP-01 | — | Pending |
-| PDP-02 | — | Pending |
-| PDP-03 | — | Pending |
-| PDP-04 | — | Pending |
-| HOME-01 | — | Pending |
-| HOME-02 | — | Pending |
-| HOME-03 | — | Pending |
-| HOME-04 | — | Pending |
-| COMPLY-01 | — | Pending |
-| COMPLY-02 | — | Pending |
-| COMPLY-03 | — | Pending |
-| COMPLY-04 | — | Pending |
+| SCAFFOLD-01 | Phase 1 | Pending |
+| SCAFFOLD-02 | Phase 1 | Pending |
+| SCAFFOLD-03 | Phase 1 | Pending |
+| SCAFFOLD-04 | Phase 1 | Pending |
+| SHARED-01 | Phase 2 | Pending |
+| SHARED-02 | Phase 2 | Pending |
+| SHARED-03 | Phase 2 | Pending |
+| SHARED-04 | Phase 2 | Pending |
+| CART-01 | Phase 2 | Pending |
+| CART-02 | Phase 2 | Pending |
+| CART-03 | Phase 2 | Pending |
+| CART-04 | Phase 2 | Pending |
+| HOME-01 | Phase 3 | Pending |
+| HOME-02 | Phase 3 | Pending |
+| HOME-03 | Phase 3 | Pending |
+| HOME-04 | Phase 3 | Pending |
+| COL-01 | Phase 4 | Pending |
+| COL-02 | Phase 4 | Pending |
+| COL-03 | Phase 4 | Pending |
+| COL-04 | Phase 4 | Pending |
+| PDP-01 | Phase 5 | Pending |
+| PDP-02 | Phase 5 | Pending |
+| PDP-03 | Phase 5 | Pending |
+| PDP-04 | Phase 5 | Pending |
+| COMPLY-01 | Phase 6 | Pending |
+| COMPLY-02 | Phase 6 | Pending |
+| COMPLY-03 | Phase 6 | Pending |
+| COMPLY-04 | Phase 6 | Pending |
 
 **Coverage:**
 - v1 requirements: 28 total
-- Mapped to phases: 0 (roadmap pending)
-- Unmapped: 28 ⚠️
+- Mapped to phases: 28
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-05-06*
-*Last updated: 2026-05-06 after initial definition*
+*Last updated: 2026-05-06 — traceability filled by roadmapper*

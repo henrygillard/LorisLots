@@ -52,10 +52,17 @@ A merchant can install this theme, populate it with their catalog, and have a fa
 
 - **Base theme**: Migrating from Debut (legacy) to Dawn (OS2.0 reference theme)
 - **Client**: Loris Lots — used physical media store with bulk discount model ("$3.49 DVDs for $2.17 each") and format-based navigation (DVDs, CDs, Blu-Ray, Vinyl)
-- **Wireframes**: 15-screen Shop App-inspired wireframe set captured in `/wireframes/screenshots/` — 3 variants per page type
+- **Wireframes**: 15-screen Shop App-inspired wireframe set in `/wireframes/` — JSX source files are the primary design spec (colors, spacing, component structure, interaction logic); screenshots in `/wireframes/screenshots/` are visual reference only
+- **Wireframe file map**:
+  - `primitives.jsx` → design tokens (maps directly to `--ll-*` CSS custom properties)
+  - `home-screens.jsx` → Home B layout, hero, carousels
+  - `collection-screens.jsx` → Collection A filter bar, grid
+  - `product-screens.jsx` → PDP A gallery, variant selector, info panel
+  - `cart-screens.jsx` → Cart A drawer, line items, progress bar
+  - `mobile-screens.jsx` → mobile breakpoint layouts for all pages
 - **Variant selections**: Home B (Editorial), Collection A (Pill filters), PDP A (Classic gallery), Cart A (Right drawer)
 - **Theme Store goal**: Theme packaging, review requirements, and theme settings are first-class concerns, not afterthoughts
-- **Stack**: Shopify Liquid, CSS/SCSS, Vanilla JS — no build-step JS frameworks
+- **Stack**: Shopify Liquid, CSS Custom Properties, Vanilla JS — no build-step JS frameworks
 
 ## Constraints
 

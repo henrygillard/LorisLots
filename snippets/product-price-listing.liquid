@@ -60,6 +60,9 @@
           {{ money_price }}
         {%- endif -%}
       </span>
+      {% if product.type != blank %}
+      <span class="product-card__type">{{ product.type }}</span>
+    {% endif %}
     </dd>
   </div>
   <div class="price__sale">

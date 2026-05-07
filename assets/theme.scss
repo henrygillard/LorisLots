@@ -2992,6 +2992,8 @@ hr {
   display: block;
   margin: 0 auto;
   width: 100%;
+}
+
   .grid-view-item__image-wrapper & {
     position: absolute;
     top: 0;
@@ -6914,7 +6916,6 @@ $transition-controls-slideshow: color 0.2s $ease-transition,
 
 .price__regular,
 .price__sale {
-  margin-right: 0.625rem;
 }
 
 .price--on-sale {

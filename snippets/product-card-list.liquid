@@ -36,6 +36,9 @@
 	
     <div class="list-view-item__price-column">
       {% include 'product-price-listing', product: product, show_vendor: false %}
+      {% if product.type != blank %}
+      <span class="product-card__type">{{ product.type }}</span>
+    {% endif %}
     </div>
   </div>
 </div>
